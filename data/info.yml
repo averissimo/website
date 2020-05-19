@@ -2,7 +2,7 @@ last_updated: "Last updated at April 2019"
 person:
   name: "André Veríssimo"
   position: "PhD Student"
-  photo: "data/static/profile.jpg"
+  photo: "profile.jpg"
   keywords: "student,tecnico,website,graduate,andré veríssimo"
   affiliations:
     -

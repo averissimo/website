@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { MDXProvider } from '@mdx-js/react'
+import ReactMarkdown from 'react-markdown'
 import yaml from 'js-yaml'
 
 import './app.scss'
@@ -12,8 +14,10 @@ import journal from '../data/journal.json'
 import conferences from '../data/conferences.json'
 import posters from '../data/posters.json'
 
+import descriptionRaw from '../data/description.md'
 
 const info = yaml.safeLoad(Buffer.from(infoRaw.replace('data:text/yaml;base64,', ''), 'base64').toString('utf8'))
+const description = Buffer.from(descriptionRaw.replace('data:text/markdown;base64,', ''), 'base64').toString('utf8')
 
 class App extends Component {
   render() {
@@ -21,7 +25,7 @@ class App extends Component {
     return (
       <div className="App" id="content">
         <header className="App-header">
-          <div id="photo"><img className="name@alt photo@src"/></div>
+          <div id="photo"><img className='name photo' alt={info.person.name} src={info.person.photo}/></div>
           <Information person={info.person} contact={info.contact}/>
           <Logos logos={info.logos}/>
         </header>
@@ -29,6 +33,8 @@ class App extends Component {
         <main>
 
         <div id="description"></div>
+
+          <ReactMarkdown source={description}/>
 
           <h2 className="light">Applications & designs</h2>
           <div id="links">
