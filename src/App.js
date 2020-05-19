@@ -12,7 +12,8 @@ import journal from '../data/journal.json'
 import conferences from '../data/conferences.json'
 import posters from '../data/posters.json'
 
-const info = yaml.safeLoad(atob(Buffer.from(infoRaw.replace('data:text/yaml;base64,', ''), 'utf8').toString('utf8')))
+
+const info = yaml.safeLoad(Buffer.from(infoRaw.replace('data:text/yaml;base64,', ''), 'base64').toString('utf8'))
 
 class App extends Component {
   render() {
@@ -110,7 +111,7 @@ class App extends Component {
           <div id="experience">
           <ol>
             {
-              info.experience.map(el => <li className="experience">
+              info.experience.map(el => <li key={el.title} className="experience">
                 <ol>
                   <li className="range">{el.range}</li>
                   <li><span className="title h4">{el.title}</span> at <a className="where" href={el.site}>{el.where}</a></li>

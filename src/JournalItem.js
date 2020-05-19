@@ -7,7 +7,7 @@ class Information extends Component {
       <li key={el.title} className="article-item">
           <ol className="inline">
             {
-              el.author && el.author.length > 15 ? null : el.author.map(author => <li className="author">
+              el.author && el.author.length > 15 ? null : el.author.map(author => <li key={author.family + author.given} className="author">
                 <span data-suffix="," className="family-name">{author.family}, </span>
                 <span data-suffix=";" className="given-name">{author.given}; </span>
               </li>)
