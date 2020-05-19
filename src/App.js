@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { MDXProvider } from '@mdx-js/react'
 import ReactMarkdown from 'react-markdown'
 import yaml from 'js-yaml'
 
