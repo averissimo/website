@@ -1,0 +1,128 @@
+[
+	{
+		"id": "verissimoRandomSampleConsensus2017",
+		"type": "paper-conference",
+		"container-title": "Intelligent Systems for Molecular Biology/European Conference on Computational Biology (ISMB/ECCB 2017)",
+		"event": "July 21-25, 2017",
+		"event-place": "Prague, Czech Republic",
+		"publisher-place": "Prague, Czech Republic",
+		"title": "Random Sample Consensus (RANSAC) for the robust identification of outliers in transcriptomic data",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Lopes",
+				"given": "Marta B."
+			},
+			{
+				"family": "Carrasquinha",
+				"given": "Eunice"
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Arlindo L."
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "verissimoRegularizedSurvivalAnalysis2017",
+		"type": "paper-conference",
+		"container-title": "From Single- to Multiomics: Applications and Challenges in Data Integration",
+		"event": "November 12-14, 2017",
+		"event-place": "Heidelberg, Germany",
+		"publisher-place": "Heidelberg, Germany",
+		"title": "Regularized survival analysis and feature clustering of TCGA breast cancer data",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Carrasquinha",
+				"given": "Eunice"
+			},
+			{
+				"family": "Lopes",
+				"given": "Marta B."
+			},
+			{
+				"family": "Oliveira",
+				"given": "Arlindo L."
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "verissimoNetworkbasedRegularizedOptimization2017",
+		"type": "paper-conference",
+		"container-title": "Ascona Workshop - Statistical Challenges in Single-Cell Biology",
+		"event": "April 30 - May 5 2017",
+		"event-place": "ETH Zurich, Switzerland",
+		"publisher-place": "ETH Zurich, Switzerland",
+		"title": "Network-based regularized optimization for cancer survival data analysis",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Carrasquinha",
+				"given": "Eunice"
+			},
+			{
+				"family": "Lopes",
+				"given": "Marta B."
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Arlindo L."
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	}
+]

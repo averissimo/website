@@ -1,19 +1,28 @@
 import React, { Component } from 'react'
+import yaml from 'js-yaml'
 
 import './app.scss'
-import logo from './logo.png'
+import './app.css'
 import Information from './Information.js'
+import JournalItem from './JournalItem.js'
 import Logos from './Logos.js'
 
+import infoRaw from '../data/info.yml'
+import journal from '../data/journal.json'
+import conferences from '../data/conferences.json'
+import posters from '../data/posters.json'
+
+const info = yaml.safeLoad(atob(Buffer.from(infoRaw.replace('data:text/yaml;base64,', ''), 'utf8').toString('utf8')))
 
 class App extends Component {
   render() {
+    console.log('journal',journal)
     return (
       <div className="App" id="content">
         <header className="App-header">
           <div id="photo"><img className="name@alt photo@src"/></div>
-          <Information/>
-          <Logos/>
+          <Information person={info.person} contact={info.contact}/>
+          <Logos logos={info.logos}/>
         </header>
         <div style={{clear: "both"}}></div>
         <main>
@@ -23,24 +32,32 @@ class App extends Component {
           <h2 className="light">Applications & designs</h2>
           <div id="links">
           <ol className="inline-block">
-            <li className="links"><a className="name site@href"></a><span className="dark-gray description"></span></li>
+            {
+              info.links.map(el => <li key={el.site} className="links">
+                <a className="name" href={el.site}>{el.name}</a><span className="dark-gray description">{el.description}</span>
+              </li>)
+            }
           </ol>
           </div>
 
           <h2>Education</h2>
           <div id="education">
           <ol>
-            <li className="education">
-              <ol>
-                <li className="range">range</li>
-                <li><hr className="subtitle"/>subtitle</li>
-                <li><a className="where site@href">where</a></li>
-                <li className="description">description</li>
-                <li data-prefix="<span className='dark-gray'>Title:</span> "      className="thesis-title">title</li>
-                <li data-prefix="<span className='dark-gray'>Supervisor:</span> " className="supervisor">supervisor</li>
-                <li data-prefix="<span className='dark-gray'>Co-supervisor:</span> " className="co-supervisor">co-supervisor</li>
-              </ol>
-            </li>
+            {
+              info.education.map(el => <li key={el.description} className="education">
+                <ol>
+                  <li className="range">{el.range}</li>
+                  <li><hr className="subtitle"/>{el.subtitle}</li>
+                  <li><a className="where" href={el.site}>{el.where}</a></li>
+                  <li className="description">{el.description}</li>
+                  { el['thesis-title'] ? <li className="thesis-title"><span className='dark-gray'>Title: </span>{el['thesis-title']}</li> : null }
+                  { el.supervisor ? <li className="supervisor"><span className='dark-gray'>Supervisor:</span> <span dangerouslySetInnerHTML={{__html: el['supervisor']}}/></li> : null }
+                  {
+                    el['co-supervisor'] ? <li className="co-supervisor"><span className='dark-gray'>Co-supervisor:</span> <span dangerouslySetInnerHTML={{__html: el['co-supervisor']}}/></li> : null
+                  }
+                </ol>
+              </li>)
+            }
           </ol>
           </div>
 
@@ -50,11 +67,13 @@ class App extends Component {
 
           <div id="projects">
           <ol>
-            <li className="project">
-              <span><a className="name site@href">link to project</a></span>
-              - <span className="range light">range</span> -
-              <span className="description">a description</span>
-            </li>
+            {
+              info.project.map(el => <li key={el.name} className="project">
+                <span><a className="name" href={el.site}>{el.name}</a></span>
+                - <span className="range light">{el.range}</span> -
+                <span className="description">{el.description}</span>
+              </li>)
+            }
           </ol>
           </div>
 
@@ -65,22 +84,7 @@ class App extends Component {
 
           <div id="journals">
           <ol className="articles-list">
-            <li className="article-item">
-              <ol className="inline">
-                <li className="author">
-                  <span data-suffix="," className="family-name"></span>
-                  <span data-suffix=";" className="given-name"></span>
-                </li>
-                <li className="title" data-prefix='"' data-suffix='".'>       <span></span></li>
-                <li className="journal" data-suffix=".">                      <span></span></li>
-                <li className="series">                                       <span></span></li>
-                <li className="volume" data-prefix="Volume " data-suffix=","> <span></span></li>
-                <li className="issue">                                        <span></span></li>
-                <li className="year" data-prefix="(" data-suffix=")">         <span></span></li>
-                <li className="pages" data-prefix="page ">                    <span></span></li>
-                <li className="url">                                          <a href=""></a></li>
-              </ol>
-            </li>
+            { journal.map(el => <JournalItem key={el.title} el={el}/>) }
           </ol>
           </div>
 
@@ -89,22 +93,7 @@ class App extends Component {
 
           <div id="conferences">
           <ol className="articles-list">
-            <li className="article-item">
-              <ol className="inline">
-                <li className="author">
-                  <span className="family-name"></span>
-                  <span data-suffix="," className="given-name"></span>
-                </li>
-                <li className="title" data-prefix='"' data-suffix='".'>       <span></span></li>
-                <li className="journal" data-suffix=".">                      <span></span></li>
-                <li className="series">                                       <span></span></li>
-                <li className="volume" data-prefix="Volume " data-suffix=","> <span></span></li>
-                <li className="issue">                                        <span></span></li>
-                <li className="year" data-prefix="(" data-suffix=")">         <span></span></li>
-                <li className="pages" data-prefix="page ">                    <span></span></li>
-                <li className="url">                                          <a href=""></a></li>
-              </ol>
-            </li>
+            { conferences.map(el => <JournalItem key={el.title} el={el}/>) }
           </ol>
           </div>
 
@@ -113,60 +102,23 @@ class App extends Component {
 
           <div id="posters">
           <ol className="articles-list">
-            <li className="article-item">
-              <ol className="inline">
-                <li className="author">
-                  <span className="family-name"></span>
-                  <span data-suffix="," className="given-name"></span>
-                </li>
-                <li className="title" data-prefix='"' data-suffix='".'>       <span></span></li>
-                <li className="journal" data-suffix=".">                      <span></span></li>
-                <li className="series">                                       <span></span></li>
-                <li className="volume" data-prefix="Volume " data-suffix=","> <span></span></li>
-                <li className="issue">                                        <span></span></li>
-                <li className="year" data-prefix="(" data-suffix=")">         <span></span></li>
-                <li className="pages" data-prefix="page ">                    <span></span></li>
-                <li className="url">                                          <a href=""></a></li>
-              </ol>
-            </li>
-          </ol>
-          </div>
-
-          <h3>Invited talks</h3>
-          <hr className="subtitle"/>
-
-          <div id="invited-talks">
-          <ol className="articles-list">
-            <li className="article-item">
-              <ol className="inline">
-                <li className="author">
-                  <span className="family-name"></span>
-                  <span data-suffix="," className="given-name"></span>
-                </li>
-                <li className="title" data-prefix='"' data-suffix='".'>       <span></span></li>
-                <li className="journal" data-suffix=".">                      <span></span></li>
-                <li className="series">                                       <span></span></li>
-                <li className="volume" data-prefix="Volume " data-suffix=","> <span></span></li>
-                <li className="issue">                                        <span></span></li>
-                <li className="year" data-prefix="(" data-suffix=")">         <span></span></li>
-                <li className="pages" data-prefix="page ">                    <span></span></li>
-                <li className="url">                                          <a href=""></a></li>
-              </ol>
-            </li>
+            { posters.map(el => <JournalItem key={el.title} el={el}/>) }
           </ol>
           </div>
 
           <h2>Professional Experience</h2>
           <div id="experience">
           <ol>
-            <li className="experience">
-              <ol>
-                <li className="range"></li>
-                <li><span className="title h4"></span> at <a className="where site@href"></a></li>
-                <li><hr className="subtitle"/></li>
-                <li className="description"></li>
-              </ol>
-            </li>
+            {
+              info.experience.map(el => <li className="experience">
+                <ol>
+                  <li className="range">{el.range}</li>
+                  <li><span className="title h4">{el.title}</span> at <a className="where" href={el.site}>{el.where}</a></li>
+                  <li><hr className="subtitle"/></li>
+                  <li className="description" dangerouslySetInnerHTML={{__html: el.description}}/>
+                </ol>
+              </li>)
+            }
           </ol>
           </div>
 

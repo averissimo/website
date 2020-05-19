@@ -8,7 +8,7 @@ $break-medium: 500px;
 $break-large: 960px;
 
 body {
-  background-image: url("../static/background.png");
+  background-image: url("../public/background.png");
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.2em;
   @media screen and (max-width: $break-small) {

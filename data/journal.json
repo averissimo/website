@@ -1,0 +1,598 @@
+[
+	{
+		"id": "verissimo_degreecox_2016",
+		"type": "article-journal",
+		"container-title": "BMC Bioinformatics",
+		"DOI": "10.1186/s12859-016-1310-4",
+		"ISSN": "1471-2105",
+		"issue": "S16",
+		"page": "109–121",
+		"title": "DegreeCox – a network-based regularization method for survival analysis",
+		"URL": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1310-4",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Arlindo L."
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2017",
+					1,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "verissimoBGFitManagementAutomated2013",
+		"type": "article-journal",
+		"abstract": "PMID: 24067087",
+		"container-title": "BMC Bioinformatics",
+		"DOI": "10.1186/1471-2105-14-283",
+		"ISSN": "1471-2105",
+		"issue": "1",
+		"language": "en",
+		"note": "PMID: 24067087",
+		"page": "283",
+		"source": "www.biomedcentral.com",
+		"title": "BGFit: management and automated fitting of biological growth curves",
+		"title-short": "BGFit",
+		"URL": "http://www.biomedcentral.com/1471-2105/14/283/abstract",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Paixão",
+				"given": "Laura"
+			},
+			{
+				"family": "Neves",
+				"given": "Ana R."
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					3,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					9,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "costaKiMoSysWebbasedRepository2014a",
+		"type": "article-journal",
+		"abstract": "PMID: 25115331",
+		"container-title": "BMC Systems Biology",
+		"DOI": "10.1186/s12918-014-0085-3",
+		"ISSN": "1752-0509",
+		"issue": "1",
+		"language": "en",
+		"note": "PMID: 25115331",
+		"page": "85",
+		"source": "www.biomedcentral.com",
+		"title": "KiMoSys: a web-based repository of experimental data for KInetic MOdels of biological SYStems",
+		"title-short": "KiMoSys",
+		"URL": "http://www.biomedcentral.com/1752-0509/8/85/abstract",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Costa",
+				"given": "Rafael S."
+			},
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					3,
+					19
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					8,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "paixaoHostGlycanSugarSpecific2015",
+		"type": "article-journal",
+		"DOI": "10.1371/journal.pone.0127483",
+		"source": "Google Scholar",
+		"title": "Host Glycan Sugar-Specific Pathways in Streptococcus pneumonia: Galactose as a Key Sugar in Colonisation and Infection",
+		"title-short": "Host Glycan Sugar-Specific Pathways in Streptococcus pneumonia",
+		"URL": "http://dx.plos.org/10.1371/journal.pone.0121042",
+		"author": [
+			{
+				"family": "Paixão",
+				"given": "Laura"
+			},
+			{
+				"family": "Oliveira",
+				"given": "Joana"
+			},
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			},
+			{
+				"family": "Lourenço",
+				"given": "Eva C."
+			},
+			{
+				"family": "Ventura",
+				"given": "M. Rita"
+			},
+			{
+				"family": "Kjos",
+				"given": "Morten"
+			},
+			{
+				"family": "Veening",
+				"given": "Jan-Willem"
+			},
+			{
+				"family": "Fernandes",
+				"given": "Vitor E."
+			},
+			{
+				"family": "Andrew",
+				"given": "Peter W."
+			},
+			{
+				"family": "Yesilkaya",
+				"given": "Hasan",
+				"suffix": ""
+			},
+			{
+				"family": "Neves",
+				"given": "Ana R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2015",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "dudnikBacHBerryBACterialHosts2018",
+		"type": "article-journal",
+		"abstract": "BACterial Hosts for production of Bioactive phenolics from bERRY fruits (BacHBerry) was a 3-year project funded by the Seventh Framework Programme (FP7) of the European Union that ran between November 2013 and October 2016. The overall aim of the project was to establish a sustainable and economically-feasible strategy for the production of novel high-value phenolic compounds isolated from berry fruits using bacterial platforms. The project aimed at covering all stages of the discovery and pre-commercialization process, including berry collection, screening and characterization of their bioactive components, identification and functional characterization of the corresponding biosynthetic pathways, and construction of Gram-positive bacterial cell factories producing phenolic compounds. Further activities included optimization of polyphenol extraction methods from bacterial cultures, scale-up of production by fermentation up to pilot scale, as well as societal and economic analyses of the processes. This review article summarizes some of the key findings obtained throughout the duration of the project.",
+		"container-title": "Phytochemistry Reviews",
+		"DOI": "10.1007/s11101-017-9532-2",
+		"ISSN": "1572-980X",
+		"issue": "2",
+		"journalAbbreviation": "Phytochem Rev",
+		"language": "en",
+		"page": "291-326",
+		"source": "Springer Link",
+		"title": "BacHBerry: BACterial Hosts for production of Bioactive phenolics from bERRY fruits",
+		"title-short": "BacHBerry",
+		"URL": "https://doi.org/10.1007/s11101-017-9532-2",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Dudnik",
+				"given": "Alexey"
+			},
+			{
+				"family": "Almeida",
+				"given": "A. Filipa"
+			},
+			{
+				"family": "Andrade",
+				"given": "Ricardo"
+			},
+			{
+				"family": "Avila",
+				"given": "Barbara"
+			},
+			{
+				"family": "Bañados",
+				"given": "Pilar"
+			},
+			{
+				"family": "Barbay",
+				"given": "Diane"
+			},
+			{
+				"family": "Bassard",
+				"given": "Jean-Etienne"
+			},
+			{
+				"family": "Benkoulouche",
+				"given": "Mounir"
+			},
+			{
+				"family": "Bott",
+				"given": "Michael"
+			},
+			{
+				"family": "Braga",
+				"given": "Adelaide"
+			},
+			{
+				"family": "Breitel",
+				"given": "Dario"
+			},
+			{
+				"family": "Brennan",
+				"given": "Rex"
+			},
+			{
+				"family": "Bulteau",
+				"given": "Laurent"
+			},
+			{
+				"family": "Chanforan",
+				"given": "Celine"
+			},
+			{
+				"family": "Costa",
+				"given": "Inês"
+			},
+			{
+				"family": "Costa",
+				"given": "Rafael S."
+			},
+			{
+				"family": "Doostmohammadi",
+				"given": "Mahdi"
+			},
+			{
+				"family": "Faria",
+				"given": "Nuno"
+			},
+			{
+				"family": "Feng",
+				"given": "Chengyong"
+			},
+			{
+				"family": "Fernandes",
+				"given": "Armando"
+			},
+			{
+				"family": "Ferreira",
+				"given": "Patricia"
+			},
+			{
+				"family": "Ferro",
+				"given": "Roberto"
+			},
+			{
+				"family": "Foito",
+				"given": "Alexandre"
+			},
+			{
+				"family": "Freitag",
+				"given": "Sabine"
+			},
+			{
+				"family": "Garcia",
+				"given": "Gonçalo"
+			},
+			{
+				"family": "Gaspar",
+				"given": "Paula"
+			},
+			{
+				"family": "Godinho-Pereira",
+				"given": "Joana"
+			},
+			{
+				"family": "Hamberger",
+				"given": "Björn"
+			},
+			{
+				"family": "Hartmann",
+				"given": "András"
+			},
+			{
+				"family": "Heider",
+				"given": "Harald"
+			},
+			{
+				"family": "Jardim",
+				"given": "Carolina"
+			},
+			{
+				"family": "Julien-Laferriere",
+				"given": "Alice"
+			},
+			{
+				"family": "Kallscheuer",
+				"given": "Nicolai"
+			},
+			{
+				"family": "Kerbe",
+				"given": "Wolfgang"
+			},
+			{
+				"family": "Kuipers",
+				"given": "Oscar P."
+			},
+			{
+				"family": "Li",
+				"given": "Shanshan"
+			},
+			{
+				"family": "Love",
+				"given": "Nicola"
+			},
+			{
+				"family": "Marchetti-Spaccamela",
+				"given": "Alberto"
+			},
+			{
+				"family": "Marienhagen",
+				"given": "Jan"
+			},
+			{
+				"family": "Martin",
+				"given": "Cathie"
+			},
+			{
+				"family": "Mary",
+				"given": "Arnaud"
+			},
+			{
+				"family": "Mazurek",
+				"given": "Vincent"
+			},
+			{
+				"family": "Meinhart",
+				"given": "Camillo"
+			},
+			{
+				"family": "Sevillano",
+				"given": "David Méndez"
+			},
+			{
+				"family": "Menezes",
+				"given": "Regina"
+			},
+			{
+				"family": "Naesby",
+				"given": "Michael"
+			},
+			{
+				"family": "Nørholm",
+				"given": "Morten H. H."
+			},
+			{
+				"family": "Okkels",
+				"given": "Finn T."
+			},
+			{
+				"family": "Oliveira",
+				"given": "Joana"
+			},
+			{
+				"family": "Ottens",
+				"given": "Marcel"
+			},
+			{
+				"family": "Parrot",
+				"given": "Delphine"
+			},
+			{
+				"family": "Pei",
+				"given": "Lei"
+			},
+			{
+				"family": "Rocha",
+				"given": "Isabel"
+			},
+			{
+				"family": "Rosado-Ramos",
+				"given": "Rita"
+			},
+			{
+				"family": "Rousseau",
+				"given": "Caroline"
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Santos",
+				"given": "Claudia Nunes",
+				"non-dropping-particle": "dos"
+			},
+			{
+				"family": "Schmidt",
+				"given": "Markus"
+			},
+			{
+				"family": "Shelenga",
+				"given": "Tatiana"
+			},
+			{
+				"family": "Shepherd",
+				"given": "Louise"
+			},
+			{
+				"family": "Silva",
+				"given": "Ana Rita"
+			},
+			{
+				"family": "Silva",
+				"given": "Marcelo Henriques",
+				"non-dropping-particle": "da"
+			},
+			{
+				"family": "Simon",
+				"given": "Olivier"
+			},
+			{
+				"family": "Stahlhut",
+				"given": "Steen Gustav"
+			},
+			{
+				"family": "Solopova",
+				"given": "Ana"
+			},
+			{
+				"family": "Sorokin",
+				"given": "Artem"
+			},
+			{
+				"family": "Stewart",
+				"given": "Derek"
+			},
+			{
+				"family": "Stougie",
+				"given": "Leen"
+			},
+			{
+				"family": "Su",
+				"given": "Shang"
+			},
+			{
+				"family": "Thole",
+				"given": "Vera"
+			},
+			{
+				"family": "Tikhonova",
+				"given": "Olga"
+			},
+			{
+				"family": "Trick",
+				"given": "Martin"
+			},
+			{
+				"family": "Vain",
+				"given": "Philippe"
+			},
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Vila-Santa",
+				"given": "Ana"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			},
+			{
+				"family": "Vogt",
+				"given": "Michael"
+			},
+			{
+				"family": "Wang",
+				"given": "Liangsheng"
+			},
+			{
+				"family": "Wang",
+				"given": "Lijin"
+			},
+			{
+				"family": "Wei",
+				"given": "Wei"
+			},
+			{
+				"family": "Youssef",
+				"given": "Sandra"
+			},
+			{
+				"family": "Neves",
+				"given": "Ana Rute"
+			},
+			{
+				"family": "Forster",
+				"given": "Jochen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					4,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					4,
+					1
+				]
+			]
+		}
+	}
+]

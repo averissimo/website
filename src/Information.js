@@ -1,32 +1,36 @@
 import React, { Component } from 'react'
 
-import './app.css'
-import logo from './logo.png'
-
 class Information extends Component {
   render() {
+    const person = this.props.person
+    const contact = this.props.contact
     return (
       <div id="information">
         <div id="who">
-            <h1 class="name">name</h1>
-            <h4 class="position">position</h4>
+            <h1 className="name">{person.name}</h1>
+            <h4 className="position">{person.position}</h4>
             <ol id="affiliations">
-              <li class="affiliations">
-                <a class="name site@href">affiliation1</a>
+            { person.affiliations.map(el => <li key={el.site}>
+                <a className="name" href={el.site} dangerouslySetInnerHTML={{__html: el.name}}/>
               </li>
+            )
+            }
             </ol>
-
         </div>
 
         <div id="contact">
           <ol>
-            <li class="address">addres</li>
-            <li class="office">office</li>
-            <li><img class="email_alt@alt email@src"/>email image</li>
+            <li className="address">{contact.address}</li>
+            <li className="office" dangerouslySetInnerHTML={{__html: contact.office}}/>
+            <li><img alt={contact.email_alt} src={contact.email}/></li>
           </ol>
 
-          <ol class="cv-links">
-            <li class="cv class@class"><a class="name site@href">cv link1</a></li>
+          <ol className="cv-links">
+            {
+              contact.cv.map(el => <li key={el.site} className={`cv ${el.class}`}>
+                <a className='name' href={el.site}>{el.name}</a>
+              </li>)
+            }
           </ol>
         </div>
 

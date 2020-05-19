@@ -1,0 +1,78 @@
+[
+	{
+		"id": "verissimoRandomSampleConsensus2019",
+		"type": "paper-conference",
+		"container-title": "CIBB - International Conference on Computational Intelligence methods for Bioinformatics and Biostatistics",
+		"event": "September 4 - 6, 2019",
+		"event-place": "Bergamo, Italy",
+		"publisher-place": "Bergamo, Italy",
+		"title": "Random sample consensus for the robust identification of outliers in cancer data",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Carrasquinha",
+				"given": "Eunice"
+			},
+			{
+				"family": "Lopes",
+				"given": "Marta B."
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "verissimoNetworkbasedSparseModeling2017",
+		"type": "paper-conference",
+		"container-title": "SPARS - Signal Processing with Adaptive Sparse Structured Representations",
+		"event": "June 5 - 8, 2017",
+		"event-place": "Lisbon, Portugal",
+		"publisher-place": "Lisbon, Portugal",
+		"title": "Network-based sparse modeling of breast invasive carcinoma survival data, Signal Processing with Adaptive Sparse Structured Representations",
+		"author": [
+			{
+				"family": "Veríssimo",
+				"given": "André"
+			},
+			{
+				"family": "Carrasquinha",
+				"given": "Eunice"
+			},
+			{
+				"family": "Lopes",
+				"given": "Marta B."
+			},
+			{
+				"family": "Oliveira",
+				"given": "Arlindo L."
+			},
+			{
+				"family": "Sagot",
+				"given": "Marie-France"
+			},
+			{
+				"family": "Vinga",
+				"given": "Susana"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	}
+]

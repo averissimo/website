@@ -1,0 +1,138 @@
+last_updated: "Last updated at April 2019"
+person:
+  name: "André Veríssimo"
+  position: "PhD Student"
+  photo: "data/static/profile.jpg"
+  keywords: "student,tecnico,website,graduate,andré veríssimo"
+  affiliations:
+    -
+      name: "Systems Engineering in Life Sciences,<br/> IDMEC, Centre for Intelligent Systems"
+      site: "https://sels.tecnico.ulisboa.pt"
+    -
+      name: "Técnico Lisboa, Universidade de Lisboa"
+      site: "https://tecnico.ulisboa.pt"
+    -
+      name: "Université Claude Bernard - Lyon 1"
+      site: "https://www.univ-lyon1.fr"
+contact:
+  email: "email.png"
+  email_alt: "andre (dot) verissimo (at) tecnico (dot) ulisboa (dot) pt"
+  address: "Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
+  office: "<span class='dark-gray'>(+351)</span> 218 419 504"
+  cv:
+    -
+      name: "Professional CV"
+      site: "http://pt.linkedin.com/in/afsverissimo/"
+      class: "linkedin"
+    -
+      name: "Open source contributions"
+      site: "https://github.com/averissimo"
+links:
+  -
+    name: "BGFit"
+    description: "(app)"
+    site: "http://kdbio.inesc-id.pt/bgfit"
+  -
+    name: "KimoSyS"
+    description: "(app)"
+    site: "http://kimosys.org"
+  -
+    name: "CancerSys"
+    description: "(website & wiki)"
+    site: "https://sites.google.com/site/cancersys/"
+  -
+    name: "GASTagus"
+    description: "(website)"
+    site: "http://www.gastagus.org/"
+  -
+    name: "SELS Research Group"
+    description: "(website)"
+    site: "http://sels.tecnico.ulisboa.pt/"
+logos:
+  -
+    name: "inesc-id"
+    logo: "inesc.png"
+    site: "http://inesc-id.pt"
+  -
+    name: "tecnico"
+    logo: "IST_C.png"
+    site: "http://tecnico.ulisboa.pt"
+  -
+    name: "lyon1"
+    logo: "Lyon.png"
+    site: "http://www.univ-lyon1.fr"
+  -
+    name: "fct"
+    logo: "FCT.png"
+    site: "http://www.fct.pt"
+experience:
+  -
+    title: "Vice-President"
+    range: "Oct. 2012 - Sep. 2013"
+    where: "GASTagus"
+    site: "http://www.gastagus.org"
+    description: "Coordinator at GASTagus responsible for the internal collaborative platforms, communication and financial management.<br/><br/>GASTagus is a non-profit organization that manages over 130 volunteers during all-year round, preparing them for a one month volunteer project in a African country or Brasil."
+  -
+    title: "Research Fellow"
+    range: "Dec. 2011 - Nov. 2012"
+    where: "INESC-ID"
+    site: "http://www.inesc-id.pt"
+    description: "Researcher at INESC-ID in Knowledge Discovery and Bioinformatics (KDBIO) group."
+  -
+    title: "Consultant"
+    range: "Sep. 2010 - Dec. 2011"
+    where: "Deloitte"
+    site: "http://www.deloitte.pt"
+    description: "Consultant at Deloitte’s Consulting division, in Manufacturing, Consumer Business, Energy and Resources industries on the Enterprise Applications service line.<br/><br/>Professional experience in the logistics and operations processes. Those projects, took place mostly in manufacturing and consumer business organizations, across multiple business sectors and countries, such as, Portugal and Angola.<br/><br/>Comprehending several business areas, particularly in Production Planning, Materials Management and Plant Maintenance, as well as in the design and implementation of solutions for Enterprise Resource Planning (ERP)"
+  -
+    title: "Junior Consultant"
+    range: "Feb. 2010 - Sep. 2010"
+    where: "Karma"
+    site: "http://www.karma-consulting.pt/"
+    description: "Junior consultant at Karma consulting in the public sector service line.<br/><br/> Professional experience in logistics and information systems design working with Portugal's public sector entities as a software engineer specialized in Java development."
+education:
+  -
+    description: "PhD in Information Systems and Computer Enginnering"
+    thesis-title: "Adaptive Clinical Decision Support System for Personalized Medicine"
+    supervisor: "<a href='http://web.ist.utl.pt/susanavinga/'>Prof.ª Susana Vinga</a>"
+    co-supervisor: "<a href='http://pbil.univ-lyon1.fr/members/sagot/htdocs/'>Prof.ª&nbsp;Marie-France Sagot</a>, <a href='http://web.tecnico.ulisboa.pt/arlindo.oliveira/'>Prof.&nbsp;Arlindo Oliveira</a>"
+    range: "2014-present"
+    where: "Técnico Lisboa, University of Lisbon"
+    site: "http://tecnico.ulisboa.pt"
+  -
+    description: "Master in Information Systems and Computer Engineering"
+    thesis-title: "Content-based image retrieval systems and high-dimensional"
+    supervisor: "<a href='http://web.ist.utl.pt/andreas.wichert/'>Andreas Wichert</a>"
+    range: "Graduated in 2009"
+    where: "Técnico Lisboa, University of Lisbon"
+    site: "http://tecnico.ulisboa.pt"
+  -
+    description: "Bachelor in Information Systems and Computer Engineering"
+    range: "Graduated in 2008"
+    where: "Técnico Lisboa, University of Lisbon"
+    site: "http://tecnico.ulisboa.pt"
+project:
+  -
+    name: "SOUND"
+    site: "http://www.sound-biomed.eu/"
+    range: "Sep. 2015 to Aug. 2018"
+    description: "Create the bioinformatic tools for statistically informed use of personal genomic and other ‘omic data in medicine, including cancers and rare metabolic diseases. (European Union H2020 - 633974)"
+  -
+    name: "BacHBerry"
+    site: "http://www.bachberry.eu"
+    range: "Nov. 2013 to Oct. 2016"
+    description: "BACterial Hosts for production of Bioactive phenolics from bERRY fruits (European Union FP7- 613793)"
+  -
+    name: "CancerSys"
+    range: "Apr. 2013 - Mar. 2014"
+    site: "https://sites.google.com/site/cancersys/"
+    description: "Multiscale modeling for personalized therapy of bone metastasis (EXPL/EMS-SIS/1954/2013)"
+  -
+    name: "Intelegen"
+    range: "Jun. 2013 - May 2015"
+    description: "Pharmacokinetic/Pharmacogenetic modulation of HIV infection therapy by bayesian and artificial intelligence methods (PTDC/DTP-FTO/1747/2012)"
+  -
+    name: "PneumoSys"
+    site: "http://services.itqb.unl.pt/labinvivonmr/doku.php?id=pneumosys"
+    range: "Apr. 2010 - Sep. 2013"
+    description: "A systems biology approach to the role of pneumococcal carbon metabolism in colonization and invasive disease (PTDC/SAU-MII/100964/2008)"
