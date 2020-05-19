@@ -36,12 +36,12 @@ class App extends Component {
 
           <ReactMarkdown source={description}/>
 
-          <h2 className="light">Applications & designs</h2>
+          <h2 className="light">Relevant software contributions</h2>
           <div id="links">
-          <ol className="inline-block">
+          <ol className="">
             {
               info.links.map(el => <li key={el.site} className="links">
-                <a className="name" href={el.site}>{el.name}</a><span className="dark-gray description">{el.description}</span>
+                <a className="big name" href={el.site}>{el.name}</a>: <span className="description">{el.description}</span>
               </li>)
             }
           </ol>

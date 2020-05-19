@@ -6,7 +6,7 @@ person:
   keywords: "student,tecnico,website,graduate,andré veríssimo"
   affiliations:
     -
-      name: "Systems Engineering in Life Sciences,<br/> IDMEC, Centre for Intelligent Systems"
+      name: "Systems Engineering in Life Sciences, INESC-ID, Universidade de Lisboa"
       site: "https://sels.tecnico.ulisboa.pt"
     -
       name: "Técnico Lisboa, Universidade de Lisboa"
@@ -29,25 +29,26 @@ contact:
       site: "https://github.com/averissimo"
 links:
   -
+    name: "glmSparseNet"
+    description: "Network and sparse regression modelling package for R (avaible at BioConductor)"
+    site: "https://bioconductor.org/packages/release/bioc/html/glmSparseNet.html"
+  -
+    name: "loose.rock"
+    description: "Bioinformatics R Package (available at CRAN)"
+    site: "https://github.com/averissimo/loose.rock"
+  -
+    name: "Yakyak"
+    description: "Hangouts messaging app"
+    site: "https://github.com/yakyak/yakyak"
+  -
     name: "BGFit"
-    description: "(app)"
-    site: "http://kdbio.inesc-id.pt/bgfit"
+    description: "Data modeling collaborative web app"
+    site: "https://sels.tecnico.ulisboa/bgfit"
   -
     name: "KimoSyS"
-    description: "(app)"
+    description: "Systems Biology collaborative web app"
     site: "http://kimosys.org"
-  -
-    name: "CancerSys"
-    description: "(website & wiki)"
-    site: "https://sites.google.com/site/cancersys/"
-  -
-    name: "GASTagus"
-    description: "(website)"
-    site: "http://www.gastagus.org/"
-  -
-    name: "SELS Research Group"
-    description: "(website)"
-    site: "http://sels.tecnico.ulisboa.pt/"
+
 logos:
   -
     name: "inesc-id"
@@ -61,10 +62,6 @@ logos:
     name: "lyon1"
     logo: "Lyon.png"
     site: "http://www.univ-lyon1.fr"
-  -
-    name: "fct"
-    logo: "FCT.png"
-    site: "http://www.fct.pt"
 experience:
   -
     title: "Vice-President"
@@ -96,7 +93,7 @@ education:
     thesis-title: "Adaptive Clinical Decision Support System for Personalized Medicine"
     supervisor: "<a href='http://web.ist.utl.pt/susanavinga/'>Prof.ª Susana Vinga</a>"
     co-supervisor: "<a href='http://pbil.univ-lyon1.fr/members/sagot/htdocs/'>Prof.ª&nbsp;Marie-France Sagot</a>, <a href='http://web.tecnico.ulisboa.pt/arlindo.oliveira/'>Prof.&nbsp;Arlindo Oliveira</a>"
-    range: "2014-present"
+    range: "2014-2020"
     where: "Técnico Lisboa, University of Lisbon"
     site: "http://tecnico.ulisboa.pt"
   -
