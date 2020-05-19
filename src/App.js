@@ -130,7 +130,7 @@ class App extends Component {
           </div>
 
           <div className="last_updated"></div>
-          <div className="center light font-12px">This website was generated using <a href="https://github.com/averissimo/personal-site">Personal Site</a> (layout inspired by <a href="http://www.mit.edu/~adalca/">Adrian Dalca's page</a>).</div>
+          <div className="center light font-12px">This website was generated using <a href="https://github.com/averissimo/website">averissimo/website</a> (layout inspired by <a href="http://www.mit.edu/~adalca/">Adrian Dalca's page</a>).</div>
 
         </main>
       </div>
