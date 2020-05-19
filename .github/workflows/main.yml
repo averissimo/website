@@ -14,28 +14,27 @@ jobs:
     - name: Checkout current repo
       uses: actions/checkout@v2
       with:
-        repository: 'averissimo/website'
-        path: website
+        repository: 'averissimo/averissimo.github.io'
+        path: public_website
         token: ${{ secrets.token }}
     - name: Get current directory and files
       run: |
         pwd
-        ls website
+        ls public_website
         ls current
     - name: Build html
       id: build
       run: |
-        cd website
-        npm install -g yarn
+        cd current
         yarn install
         yarn build
 
     - name: Update site
       id: update
       run: |
-        cd current
+        cd public_website
         rm -rf *
-        cp -r ../repo/dist/* .
+        cp -r ../current/dist/* .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
