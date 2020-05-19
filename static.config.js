@@ -8,7 +8,7 @@ import React, { Component } from 'react'
 
 export default {
   maxThreads: 1, // Remove this when you start doing any static generation
-  plugins: ['react-static-plugin-sass', 'react-static-plugin-mdx'],
+  plugins: ['react-static-plugin-sass'],
   Document: ({
     Html,
     Head,

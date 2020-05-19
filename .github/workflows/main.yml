@@ -4,7 +4,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build Rmd Site
+    name: Build @averissimo site
     steps:
     - name: Checkout current repo
       uses: actions/checkout@v2
