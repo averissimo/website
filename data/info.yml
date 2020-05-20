@@ -17,8 +17,8 @@ person:
 contact:
   email: "email.png"
   email_alt: "andre (dot) verissimo (at) tecnico (dot) ulisboa (dot) pt"
-  address: "Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
-  office: "<span class='dark-gray'>(+351)</span> 218 419 504"
+  #address: "Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
+  #office: "<span class='dark-gray'>(+351)</span> 218 419 504"
   cv:
     -
       name: "Professional CV"
@@ -68,13 +68,13 @@ experience:
     range: "Oct. 2012 - Sep. 2013"
     where: "GASTagus"
     site: "http://www.gastagus.org"
-    description: "Coordinator at GASTagus responsible for the internal collaborative platforms, communication and financial management.<br/><br/>GASTagus is a non-profit organization that manages over 130 volunteers during all-year round, preparing them for a one month volunteer project in a African country or Brasil."
+    description: "Coordinator at GASTagus responsible for the internal collaborative platforms, communication and financial management.<br/><br/>GASTagus is a non-profit organization that manages over 130 volunteers during all-year round, preparing them for a one month volunteer project in Angola, Cabo Verde, São Tomé e Príncipe, Mozambique and Brasil."
   -
     title: "Research Fellow"
     range: "Dec. 2011 - Nov. 2012"
     where: "INESC-ID"
     site: "http://www.inesc-id.pt"
-    description: "Researcher at INESC-ID in Knowledge Discovery and Bioinformatics (KDBIO) group."
+    description: "Researcher at INESC-ID in Knowledge Discovery and Bioinformatics (KDBIO) group. In this position we developed BGFit as a web application to manage timeseries data sets and uses matlab in the backend to model the data."
   -
     title: "Consultant"
     range: "Sep. 2010 - Dec. 2011"
